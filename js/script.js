@@ -140,7 +140,7 @@ function sendToTelegram(event) {
 
   // Ваш токен та chat_id
   const token = "7851484420:AAFDb24FOvhOOj7Dat9Z9d7xu5vczO9586E";
-  const chatId = "333591718";
+  const chatId = "-4665575999";
 
   // URL для відправки запиту
   const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(
